@@ -1,0 +1,139 @@
+
+
+#featured_container a:link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 3s ease-out;
+}
+
+
+#featured_container a:visited {
+    color: #fff;
+    text-decoration: none;
+    transition: color 3s ease-out;
+}
+
+
+#featured_container a:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: color 3s ease-out;
+}
+
+
+#featured_container a:active {
+    color: #fff;
+    text-decoration: none;
+    transition: color 3s ease-out;
+}
+
+
+#featured_container a:link img,#featured_container a:visited img {
+    opacity: 0.85;
+    transition: opacity 1s ease-out;
+}
+
+
+#featured_container a:hover img,#featured_container a:active img {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+
+#featured_container {
+    background: #C2C2C2;
+}
+
+
+#featured_container:before {
+    display: block;
+    width: 100%;
+    content: "";
+    height: 2px;
+    background-image: -webkit-gradient(linear,left bottom,right bottom,color-stop(0%,#979797),color-stop(50%,#C2C2C2),color-stop(100%,#979797));
+}
+
+
+#featured_container .col-sm-6 div {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+
+#featured_container h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 30px;
+    border-bottom: 2px solid #fff;
+    font-size: 2rem;
+}
+
+
+#featured_container h2 span {
+}
+
+
+#featured_container .shadow_featured {
+    position: absolute !important;
+    margin-bottom: 0 !important;
+    bottom: 0;
+    left: 0;
+    min-height: 75%;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,0.85));
+}
+
+
+#featured_container a:link .shadow_featured,#featured_container a:visited .shadow_featured {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transition: opacity 2s ease-out;
+}
+
+
+#featured_container a:hover .shadow_featured,#featured_container a:active .shadow_featured {
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+    transition: opacity 2s ease-out;
+}
+
+
+#featured_container a:link h2 span,#featured_container a:visited h2 span {
+    background: #252775;
+    transition: background 2s ease-out;
+}
+
+
+#featured_container a:hover h2 span,#featured_container a:active h2 span {
+    background: #00A1E4;
+    transition: background 2s ease-out;
+}
+
+
+    #featured_container h2 {
+        font-size: 3rem;
+    }
+
+
+    #featured_container h2 {
+        font-size: 2rem;
+    }
+
+
+    #featured_container h2 {
+        font-size: 2.4rem;
+    }
+
+
+    #featured_container h2 {
+        font-size: 3rem;
+    }
+
+
+#block-lpnu-main-menu,.region-sidebar-second,.logo,.page-header,#hero,#block-lpnushortcutstop4,#featured_container h2,#events_container,.news_teaser,.block-views-blockfront-page-news-block-3 h2,.paragraph--type--person-with-description .field--name-field-person-name,.view-header h1 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+}
